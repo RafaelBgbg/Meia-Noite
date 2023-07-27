@@ -1,26 +1,29 @@
+@font-face {
+  font-family: "Pixellari";
+  src: url(../fonts/Pixellari.ttf) format("truetype");
+}
+
 * {
-    border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
+  height: 100vh;
+  font-family: "Pixellari", sans-serif;
 }
 
-main > div {
-    width: 33vw;
-    height: 100vh;
+.div {
+  width: calc(100vw / 3);
+  height: 100vh;
 }
 
 main {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .divImagemCentral img {
-width: 100%;
-}
-
-.cardUpgrade {
-    display: flex;
-    flex-direction: row;
+  width: 100%;
 }
